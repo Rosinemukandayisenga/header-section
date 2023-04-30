@@ -44,3 +44,37 @@ display: block;
     color:white;
     background:  rgb(11, 154, 154);
 }
+
+@media screen and (max-width:900px)
+{
+    nav{
+        width: 300px;
+        height: 250px;
+        position: static;
+    }
+    nav ul{
+        padding: 5px;
+        margin: 0 10px;
+    }
+    nav ul li{
+        /* align-items: center;
+        margin: auto; */
+        display: block;
+        object-fit: fill;
+    }
+    nav li a {
+        justify-content: center;
+
+    }
+
+}
+@media screen and (max-width:1200px){
+    nav{
+        width: 900px;
+        height: 400px;
+    }
+    nav ul li {
+        display: block;
+        object-fit: fill;
+    }
+}
